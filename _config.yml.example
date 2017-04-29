@@ -1,0 +1,33 @@
+menu:
+   #Archives: /archives
+  Books: /Books
+  Resume: /resume
+  About me: /about
+rss: /atom.xml
+description:
+social:
+  telegram: https://telegram.org/?=xxxxxxxxx
+  whatsapp: https://web.whatsapp.com/?=xxxxxxxxx
+  github: https://github.com/rupgautam
+  stack_overflow: https://stackoverflow.com/users/1818721/rup-gautam
+  codepen: http://codepen.io/rupgautam
+  twitter: https://twitter.com/gautamrup
+
+
+
+page_comment: true
+logo: /images/avatar.jpg
+background:
+  cover: /images/background-cover.jpg
+  color: cover-purple
+
+archive_date_format: MMM DD
+fancybox: true
+
+duoshuo_shortname:
+
+google_analytics:
+favicon: /images/avatar-small.png
+
+#mathjax
+mathjax: true

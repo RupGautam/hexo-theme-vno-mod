@@ -1,0 +1,20 @@
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+
+    <h1 class="post-title"><%= page.title%></h1>
+    <div class="post-meta">
+      <%- partial('_partial/date',{post: page}) %> &#8226; <span class="post-meta__categories categories">To&nbsp;<%- partial('_partial/categories',{post: page}) %> </span>
+    </div>
+  </header>
+
+  <section class="post">
+    <%- page.content%>
+  </section>
+
+</article>
+
+<%- partial('_partial/read-more', {}) %>
+<% if (page.comment || theme.page_comment) { %>
+  <%- partial('_partial/comments',{}) %>
+<% } %>

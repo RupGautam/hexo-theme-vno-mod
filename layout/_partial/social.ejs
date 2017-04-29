@@ -1,0 +1,104 @@
+<nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+    <!-- Telegram-->
+    <% if (theme.social.telegram) { %>
+      <li class="navigation__item">
+        <a href="<%= theme.social.telegram%>" title="telegram" target="_blank">
+          <i class='social fa fa-telegram fa-2x'></i>
+          <span class="label">Telegram</span>
+        </a>
+      </li>
+      <% } %>
+        <!-- Whatsapp -->
+        <% if (theme.social.whatsapp) { %>
+          <li class="navigation__item">
+            <a href="<%= theme.social.whatsapp%>" title="Whatsapp" target="_blank">
+              <i class='social fa fa-whatsapp fa-2x'></i>
+              <span class="label">Whatsapp</span>
+            </a>
+          </li>
+          <% } %>
+
+            <!-- Github -->
+            <% if (theme.social.github) { %>
+              <li class="navigation__item">
+                <a href="<%= theme.social.github%>" title="Github" target="_blank">
+                  <i class='social fa fa-github fa-2x'></i>
+                  <span class="label">Github</span>
+                </a>
+              </li>
+              <% } %>
+
+                <!-- Stack Overflow -->
+                <% if (theme.social.stack_overflow) { %>
+                  <li class="navigation__item">
+                    <a href="<%= theme.social.stack_overflow %>" title="Stack Overflow" target="_blank">
+                      <i class='social fa fa-stack-overflow fa-2x'></i>
+                      <span class="label">Stack Overflow</span>
+                    </a>
+                  </li>
+                  <% } %>
+                    <!-- Google Plus -->
+                    <% if (theme.social["google_plus"]) { %>
+                      <li class="navigation__item">
+                        <a href="<%= theme.social['google_plus'] %>" title="Google+" target="_blank">
+                          <i class='social fa fa-google-plus-square fa-2x'></i>
+                          <span class="label">Google+</span>
+                        </a>
+                      </li>
+                      <% } %>
+
+                        <!-- Facebook -->
+                        <% if (theme.social.facebook) { %>
+                          <li class="navigation__item">
+                            <a href="<%= theme.social.facebook%>" title="Facebook" target="_blank">
+                              <i class='social fa fa-facebook fa-2x'></i>
+                              <span class="label">Facebook</span>
+                            </a>
+                          </li>
+                          <% } %>
+
+
+
+                            <!-- Twitter -->
+                            <% if (theme.social.twitter) { %>
+                              <li class="navigation__item">
+                                <a href="<%= theme.social.twitter%>" title="Twitter" target="_blank">
+                                  <i class='social fa fa-twitter fa-2x'></i>
+                                  <span class="label">Twitter</span>
+                                </a>
+                              </li>
+                              <% } %>
+                                <!-- RSS -->
+                                <% if (theme.rss) { %>
+                                  <li class="navigation__item">
+                                    <a href="<%- theme.rss %>" title="RSS" target="_blank">
+                                      <i class='social fa fa-rss fa-2x'></i>
+                                      <span class="label">RSS</span>
+                                    </a>
+                                  </li>
+                                  <% } %>
+                                    <!-- Mail To -->
+                                    <% if (config.email) { %>
+                                      <li class="navigation__item">
+                                        <a href="mailto:<%= config.email%>" title="Mail To" target="_blank">
+                                          <i class='social fa fa-envelope fa-2x'></i>
+                                          <span class="label">Email</span>
+                                        </a>
+                                      </li>
+                                      <% } %>
+                                        <!-- Codepen -->
+                                        <% if (theme.social.codepen) { %>
+                                          <li class="navigation__item">
+                                            <a href="<%= theme.social.codepen%>" title="Codepen" target="_blank">
+                                              <i class='social fa fa-codepen fa-2x'></i>
+                                              <span class="label">Codepen</span>
+                                            </a>
+                                          </li>
+                                          <% } %>
+
+                                            <!-- add custom icon config here -->
+
+  </ul>
+</nav>

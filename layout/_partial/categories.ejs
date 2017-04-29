@@ -1,0 +1,7 @@
+<% if (site.categories && site.categories.length){ %>
+  <%- list_tags(site.categories, {
+    show_count: false,
+    style: 'none',
+    class: '',
+  }) %>
+<% } %>
